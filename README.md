@@ -20,7 +20,7 @@ Cuando el juego este pausado podrás **seleccionar** las diferentes casillas con
 Puedes **borrar** las casillas con el clic **derecho**
 
 Si deseas ejecutar desde VS code necesitaras configurar el settings.json.
-Para ello presiona** CTR + SHIFT + P**
+Para ello presiona **CTR + SHIFT + P**
 Busca "Preferences: Open Settings (JSON)"
 Continuación agrega al JSON la el siguiente elemento.
 
