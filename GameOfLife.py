@@ -1,4 +1,4 @@
-import pygame
+import pygame, sys
 import numpy as np
 import time, os
 
@@ -37,6 +37,9 @@ iteration = 0
 #Bucle de ejecucion
 #para que la pantalla se muestre indefinidamentes tenemos que crear un bucle
 while True:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            sys.exit()
 
     #mantener la copia del estado en ejecucion del juego para relacionarlo con el estado posterior en cada ejecucion del ciclo
     newGameState = np.copy(gameState)
