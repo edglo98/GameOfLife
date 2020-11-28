@@ -3,8 +3,8 @@ El Juego de la vida es un autómata celular diseñado por el matemático britán
 
 El juego sigue un patron que esta determinado por su estado inicial el cual va evolucionando a través del tiempo siguiendo dos sencillas reglas
 
-    -Una célula muerta con exactamente 3 células vecinas vivas "nace" (es decir, al turno siguiente estará viva).
-    -Una célula viva con 2 o 3 células vecinas vivas sigue viva, en otro caso muere (por "soledad" o "superpoblación").
+- Una célula muerta con exactamente 3 células vecinas vivas "nace" (es decir, al turno siguiente estará viva).
+- Una célula viva con 2 o 3 células vecinas vivas sigue viva, en otro caso muere (por "soledad" o "superpoblación").
  
 Para correr el juego deberas tener instalado [python](https://www.python.org/)
 Adicionalmente necesitaras las siguientes librerias.
